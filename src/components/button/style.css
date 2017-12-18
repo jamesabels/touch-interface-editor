@@ -9,6 +9,16 @@
     border-bottom: solid 5px rgb(106, 110, 126);
 }
 
+.innerButton {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
 .button:hover {
     opacity: 0.95;
     border: none;
