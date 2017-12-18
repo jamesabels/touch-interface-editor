@@ -27,7 +27,7 @@ export default class Button extends Component {
         } else {
             return (
                 <div class={`${style.button} ${this._changeMode(mode)}`} style={this.style}>
-                    <Hammer 
+                    <Hammer
                         style={this.style}
                         onTap={() => console.log('Tap!')} 
                         onSwipe={() => console.log('Swipe!')} >
